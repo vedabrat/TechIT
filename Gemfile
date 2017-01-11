@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'bundler'
+# gem 'bundler'
 gem "jekyll", "3.3.1"
 gem 'kramdown'
 gem 'rack-jekyll'

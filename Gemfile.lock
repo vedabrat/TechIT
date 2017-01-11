@@ -54,6 +54,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)
   kramdown
