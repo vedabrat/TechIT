@@ -15,7 +15,7 @@ gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'puma'
-
+gem 'jekyll-seo-tag'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
