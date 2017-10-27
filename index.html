@@ -189,13 +189,8 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-
-                    <form action="https://getsimpleform.com/messages?form_api_token=67f0a04c90bacd6531179946d149e692" method="post">
-                      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <form  action="https://getsimpleform.com/messages?form_api_token=67f0a04c90bacd6531179946d149e692" method="post" name="sentMessage" id="contactForm" novalidate>
                       <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-                      <!-- all your input fields here.... -->
-                      <input type='text' name='test' />
-                    <form name="sentMessage" id="contactForm" novalidate>
                          <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -228,11 +223,9 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                                <input type='submit' value='Test form' />
+                                <button type='submit' value='Send' class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
-                      </form>
                     </form>
                 </div>
             </div>
